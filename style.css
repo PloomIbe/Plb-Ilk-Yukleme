@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(img/uzay.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    user-select: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.navbar .logo b{
+    user-select: none;
+    text-decoration: none;
+    font-size: 10pxpx;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+.navbar ul li b{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.text{
+    position: absolute;
+    color: blanchedalmond;
+    top: 50%;
+    left: 0%;transform: translate(-50½,-50%);
+    user-select: none;
+    background: black;
+    font-family:sans-serif;
+    padding: 3px 243.5px;
+}
